@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Language Name="Eesti">
+<Language Name="Eesti" SupportedVersion="4.20">
   <LocaleResource Name="Account.AccountActivation">
     <Value>Konto aktiveerimine</Value>
   </LocaleResource>
@@ -682,7 +682,7 @@
     <Value>Lisatud uus aadressi atribuudi väärtus (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewAffiliate">
-    <Value><!--NA-->Added a new affiliate (ID = {0})</Value>
+    <Value>Lisatd uus partner (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewBlogPost">
     <Value>Lisatud uus blogipost (ID = {0})</Value>
@@ -712,37 +712,37 @@
     <Value>Lisatud uus kliendi atribuudi väärtus (ID = {0})</Value>
   </LocaleResource>  
   <LocaleResource Name="ActivityLog.AddNewCustomerRole">
-    <Value><!--NA-->Added a new customer role ('{0}')</Value>
+    <Value>Uus kliendiroll lisatud ('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewDiscount">
-    <Value><!--NA-->Added a new discount ('{0}')</Value>
+    <Value>Uus allahindlus ('{0}') lisatud</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewEmailAccount">
-    <Value><!--NA-->Added a new email account (ID = {0})</Value>
+    <Value>Loodud uus emaili konto (ID = {0})</Value>
   </LocaleResource>  
   <LocaleResource Name="ActivityLog.AddNewGiftCard">
-    <Value><!--NA-->Added a new gift card ('{0}')</Value>
+    <Value>Loodud uus kinkekaart ('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewLanguage">
-    <Value><!--NA-->Added a new language (ID = {0})</Value>
+    <Value>Lisatud uus keel (ID = {0})</Value>
   </LocaleResource>  
   <LocaleResource Name="ActivityLog.AddNewManufacturer">
-    <Value><!--NA-->Added a new manufacturer ('{0}')</Value>
+    <Value>Lisatud uus tootja ('{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewMeasureDimension">
-    <Value><!--NA-->Added a new measure dimension (ID = {0})</Value>
+    <Value>Lisatud uus mõõde (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewMeasureWeight">
-    <Value><!--NA-->Added a new measure weight (ID = {0})</Value>
+    <Value>Lisatud uus kaalumõõde (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewNews">
-    <Value><!--NA-->Added a new news (ID = {0})</Value>
+    <Value>Uudis lisatud (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewProduct">
-    <Value><!--NA-->Added a new product ('{0}')</Value>
+    <Value>Uus toode ('{0}') lisatud</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewProductAttribute">
-    <Value><!--NA-->Added a new product attribute ('{0}')</Value>
+    <Value>Uus tooteatribuut ('{0}') lisatud</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.AddNewSetting">
     <Value><!--NA-->Added a new setting ('{0}')</Value>
@@ -1003,7 +1003,7 @@
    <Value><!--NA-->Edited a vendor (ID = {0})</Value>
   </LocaleResource>
   <LocaleResource Name="ActivityLog.EditWarehouse">
-   <Value><!--NA-->Edited a warehouse (ID = {0})</Value>
+   <Value>Muudetud ladu (ID = {0})</Value>
   </LocaleResource>  
   <LocaleResource Name="ActivityLog.EditWidget">
     <Value><!--NA-->Edited a widget (ID = {0})</Value>
@@ -1087,7 +1087,7 @@
     <Value><!--NA-->Uploaded a new theme (FriendlyName: '{0}')</Value>
   </LocaleResource>
   <LocaleResource Name="Address">
-    <Value><!--NA-->Address</Value>
+    <Value>Aadress</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Address1">
     <Value><!--NA-->Address 1</Value>
@@ -1117,7 +1117,7 @@
     <Value><!--NA-->Country</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Country.Required">
-    <Value><!--NA-->Country is required.</Value>
+    <Value>Riik on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.Email">
     <Value>E-mail</Value>
@@ -1126,31 +1126,31 @@
     <Value>E-mail on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FaxNumber">
-    <Value><!--NA-->Fax number</Value>
+    <Value>Faksi number.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FaxNumber.Required">
-    <Value><!--NA-->Fax number is required.</Value>
+    <Value>Faksi number on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FirstName">
-    <Value><!--NA-->First name</Value>
+    <Value>Eesnimi</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.FirstName.Required">
-    <Value><!--NA-->First name is required.</Value>
+    <Value>Eesnimi on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.LastName">
-    <Value><!--NA-->Last name</Value>
+    <Value>Perekonnanimi</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.LastName.Required">
-    <Value><!--NA-->Last name is required.</Value>
+    <Value>Perekonnanimi is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.PhoneNumber">
-    <Value><!--NA-->Phone number</Value>
+    <Value>Telefon</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.PhoneNumber.Required">
-    <Value><!--NA-->Phone number is required.</Value>
+    <Value>Telefon is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.StateProvince">
-    <Value><!--NA-->State / province</Value>
+    <Value>Osariik / maakond</Value>
   </LocaleResource>
   <LocaleResource Name="Address.Fields.StateProvince.Required">
     <Value><!--NA-->State / province is required.</Value>
@@ -1162,28 +1162,28 @@
     <Value><!--NA-->Zip / postal code is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Address.OtherNonUS">
-    <Value><!--NA-->Other (Non US)</Value>
+    <Value>Muu</Value>
   </LocaleResource>
   <LocaleResource Name="Address.SelectCountry">
-    <Value><!--NA-->Select country</Value>
+    <Value>Vali riik</Value>
   </LocaleResource>
   <LocaleResource Name="Address.SelectState">
-    <Value><!--NA-->Select state</Value>
+    <Value>Vali osariik</Value>
   </LocaleResource>
   <LocaleResource Name="Admin">
-    <Value><!--NA-->Admin</Value>
+    <Value>Administraator</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.AccessDenied.Description">
     <Value><!--NA-->You do not have permission to perform the selected operation.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.AccessDenied.Title">
-    <Value><!--NA-->Access denied.</Value>
+    <Value>Juurdepääs keelatud.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address">
-    <Value><!--NA-->Address</Value>
+    <Value>Aadress</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.AddressAttributes">
-    <Value><!--NA-->Custom address attributes</Value>
+    <Value>Kohandatud aadressi atribuudid</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.AddressAttributes.AddNew">
     <Value><!--NA-->Add a new address attribute</Value>
@@ -1309,58 +1309,58 @@
     <Value><!--NA-->Country</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country.Hint">
-    <Value><!--NA-->Select country.</Value>
+    <Value>Vali riik.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Country.Required">
-    <Value><!--NA-->Country is required.</Value>
+    <Value>Riik on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email">
     <Value>E-mail</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email.Hint">
-    <Value><!--NA-->Enter email.</Value>
+    <Value>Sinu e-mail</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.Email.Required">
     <Value>E-mail on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FaxNumber">
-    <Value><!--NA-->Fax number</Value>
+    <Value>Faksi number.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FaxNumber.Hint">
-    <Value><!--NA-->Enter fax number.</Value>
+    <Value>Sinu faksi number</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FaxNumber.Required">
-    <Value><!--NA-->Fax number is required.</Value>
+    <Value>Faksi number on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FirstName">
-    <Value><!--NA-->First name</Value>
+    <Value>Eesnimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FirstName.Hint">
-    <Value><!--NA-->Enter first name.</Value>
+    <Value>Sinu eesnimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.FirstName.Required">
-    <Value><!--NA-->First name is required.</Value>
+    <Value>Eesnimi on kohustuslik.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.LastName">
-    <Value><!--NA-->Last name</Value>
+    <Value>Perekonnanimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.LastName.Hint">
-    <Value><!--NA-->Enter last name.</Value>
+    <Value>Sinu perekonnanimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.LastName.Required">
-    <Value><!--NA-->Last name is required.</Value>
+    <Value>Perekonnanimi is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.PhoneNumber">
-    <Value><!--NA-->Phone number</Value>
+    <Value>Telefon</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.PhoneNumber.Hint">
-    <Value><!--NA-->Enter phone number.</Value>
+    <Value>Sinu telefon</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.PhoneNumber.Required">
-    <Value><!--NA-->Phone number is required.</Value>
+    <Value>Telefon is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.StateProvince">
-    <Value><!--NA-->State / province</Value>
+    <Value>Osariik / maakond</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.Fields.StateProvince.Hint">
     <Value><!--NA-->Select state / province.</Value>
@@ -1378,13 +1378,13 @@
     <Value><!--NA-->Zip / postal code is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.OtherNonUS">
-    <Value><!--NA-->Other (Non US)</Value>
+    <Value>Muu</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.SelectCountry">
-    <Value><!--NA-->Select country</Value>
+    <Value>Vali riik</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Address.SelectState">
-    <Value><!--NA-->Select state</Value>
+    <Value>Vali osariik</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates">
     <Value><!--NA-->Affiliates</Value>
@@ -1459,7 +1459,7 @@
     <Value><!--NA-->The end date for the order search.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchFirstName">
-    <Value><!--NA-->First name</Value>
+    <Value>Eesnimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchFirstName.Hint">
     <Value><!--NA-->Search by a first name.</Value>
@@ -1471,7 +1471,7 @@
     <Value><!--NA-->Search by a friendly URL name.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchLastName">
-    <Value><!--NA-->Last name</Value>
+    <Value>Perekonnanimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.List.SearchLastName.Hint">
     <Value><!--NA-->Search by a last name.</Value>
@@ -1492,16 +1492,16 @@
     <Value><!--NA-->The end date for the search.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.OrderStatus.Hint">
     <Value><!--NA-->Search by a specific order status e.g. Complete.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.OrderTotal">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Affiliates.Orders.PaymentStatus.Hint">
     <Value><!--NA-->Search by a specific payment status e.g. Paid.</Value>
@@ -1576,7 +1576,7 @@
     <Value><!--NA-->Choose how to display your attribute values.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.DefaultValue">
-    <Value><!--NA-->Default value</Value>
+    <Value>Vaikeväärtus</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.DefaultValue.Hint">
     <Value><!--NA-->Enter default value for attribute.</Value>
@@ -2086,7 +2086,7 @@
     <Value><!--NA-->The category picture.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PriceRanges">
-    <Value><!--NA-->Price ranges</Value>
+    <Value>Hinnavahemikud</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.PriceRanges.Hint">
     <Value><!--NA-->Define the price ranges for the store price range filter. Separate ranges with a semicolon e.g. '0-199;200-300;301-;' (301- means 301 and over).</Value>
@@ -2104,7 +2104,7 @@
     <Value><!--NA-->Set a search engine friendly page name e.g. 'the-best-category' to make your page URL 'http://www.yourStore.com/the-best-category'. Leave empty to generate it automatically based on the name of the category.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnHomePage">
-    <Value><!--NA-->Show on home page</Value>
+    <Value>Näita avalehel</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnHomePage.Hint">
     <Value><!--NA-->Check if you want to show a category on home page.</Value>
@@ -2284,7 +2284,7 @@
     <Value><!--NA-->The manufacturer picture.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PriceRanges">
-    <Value><!--NA-->Price ranges</Value>
+    <Value>Hinnavahemikud</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PriceRanges.Hint">
     <Value><!--NA-->Define the price ranges for the store price range filter. Separate ranges with a semicolon e.g. '0-199;200-300;301-;' (301- means 301 and over).</Value>
@@ -2377,7 +2377,7 @@
     <Value><!--NA-->The customer who created the review.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.IsApproved">
-    <Value><!--NA-->Is approved</Value>
+    <Value>Heakskiidetud</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.IsApproved.Hint">
     <Value><!--NA-->Is the review approved? Marking it as approved means that it is visible to all your site's visitors.</Value>
@@ -2389,7 +2389,7 @@
     <Value><!--NA-->The name of the product that the review is for.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Rating">
-    <Value><!--NA-->Rating</Value>
+    <Value>Reiting</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Rating.Hint">
     <Value><!--NA-->The customer's product rating.</Value>
@@ -2683,7 +2683,7 @@
     <Value><!--NA-->Enter a reference unit.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.CallForPrice">
-    <Value><!--NA-->Call for price</Value>
+    <Value>Helista ja küsi hinda</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.CallForPrice.Hint">
     <Value><!--NA-->Check to show "Call for Pricing" or "Call for quote" instead of price.</Value>
@@ -2827,7 +2827,7 @@
     <Value><!--NA-->Check if it is a gift card. After adding gift card products to the shopping cart and completing the purchases, you can then search and view the list of all the purchased gift cards by selecting Gift Cards from the Sales menu.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.IsRecurring">
-    <Value><!--NA-->Recurring product</Value>
+    <Value>Korduv toode</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.IsRecurring.Hint">
     <Value><!--NA-->Check if it is a recurring product. For any product, you can define a recurring cycle to enable the system to automatically create orders that repeat when a customer purchases such products.</Value>
@@ -3136,7 +3136,7 @@
     <Value><!--NA-->Short description is the text that is displayed in product list i.e. сategory / manufacturer pages.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ShowOnHomePage">
-    <Value><!--NA-->Show on home page</Value>
+    <Value>Näita avalehel</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.ShowOnHomePage.Hint">
     <Value><!--NA-->Check to display this product on your store's home page. Recommended for your most popular products.</Value>
@@ -3181,7 +3181,7 @@
     <Value><!--NA-->The text of the user agreement.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.Vendor.Hint">
     <Value><!--NA-->Choose a vendor associated with this product. This can be useful when running a multi-vendor store to keep track of goods associated with vendor.</Value>
@@ -3292,7 +3292,7 @@
     <Value>Ainult avaldatud</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.UnpublishedOnly">
-    <Value><!--NA-->Unpublished only</Value>
+    <Value>Ainult avaldamata</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchStore">
     <Value>Pood</Value>
@@ -3301,7 +3301,7 @@
     <Value><!--NA-->Search by a specific store.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchVendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.List.SearchVendor.Hint">
     <Value><!--NA-->Search by a specific vendor.</Value>
@@ -3508,7 +3508,7 @@
     <Value><!--NA-->Validation rules</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.DefaultValue">
-    <Value><!--NA-->Default value</Value>
+    <Value>Vaikeväärtus</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.DefaultValue.Hint">
     <Value><!--NA-->Enter default value for attribute.</Value>
@@ -3541,7 +3541,7 @@
     <Value><!--NA-->Edit rules</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values">
-    <Value><!--NA-->Values</Value>
+    <Value>Väärtused</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.AddNew">
     <Value>Lisa uus väärtus</Value>
@@ -3553,10 +3553,10 @@
     <Value>Muuda väärtust</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct">
-    <Value><!--NA-->Associated product</Value>
+    <Value>Setotud toode</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.AddNew">
-    <Value><!--NA-->Associate a product</Value>
+    <Value>Seosta tootega</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.AssociatedProduct.Choose">
     <Value><!--NA-->Choose an associated product</Value>
@@ -3694,7 +3694,7 @@
     <Value><!--NA-->No warehouses defined</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductWarehouseInventory.Fields.WarehouseUsed">
-    <Value><!--NA-->Use</Value>
+    <Value>Kasuta</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.ProductWarehouseInventory.Hint">
     <Value><!--NA-->Manage inventory per warehouse.</Value>
@@ -3706,7 +3706,7 @@
     <Value><!--NA-->Here you can see a list of orders in which this product was purchased.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.RecurringProduct">
-    <Value><!--NA-->Recurring product</Value>
+    <Value>Korduv toode</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.RelatedProducts">
     <Value><!--NA-->Related products</Value>
@@ -6880,7 +6880,7 @@
     <Value><!--NA-->Check to display news comments written in the current store only.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsOnMainPage">
-    <Value><!--NA-->Show on home page</Value>
+    <Value>Näita avalehel</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsOnMainPage.Hint">
     <Value><!--NA-->Check to display your news items on your store home page.</Value>
@@ -7252,7 +7252,7 @@
     <Value><!--NA-->Settings</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.CallForPrice">
-    <Value><!--NA-->Call for price</Value>
+    <Value>Helista ja küsi hinda</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.CreatedOn">
     <Value>Loodud</Value>
@@ -7378,7 +7378,7 @@
     <Value><!--NA-->Purchased with orders</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.RecurringProduct">
-    <Value><!--NA-->Recurring product</Value>
+    <Value>Korduv toode</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.RelatedProducts">
     <Value><!--NA-->Related products</Value>
@@ -7393,7 +7393,7 @@
     <Value><!--NA-->Ship separately</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.ShowOnHomePage">
-    <Value><!--NA-->Show on home page</Value>
+    <Value>Näita avalehel</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.SpecificationAttributes">
     <Value><!--NA-->Specification attributes</Value>
@@ -7411,7 +7411,7 @@
     <Value><!--NA-->Tier prices</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.VisibleIndividually">
     <Value><!--NA-->Visible individually</Value>
@@ -8203,7 +8203,7 @@
     <Value><!--NA-->Edit warehouse details</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.Address">
-    <Value><!--NA-->Address</Value>
+    <Value>Aadress</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.Name">
     <Value>Nimi</Value>
@@ -8536,7 +8536,7 @@
     <Value><!--NA-->Customer</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.IsApproved">
-    <Value><!--NA-->Is approved</Value>
+    <Value>Heakskiidetud</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.StoreName">
     <Value><!--NA-->Store name</Value>
@@ -8968,7 +8968,7 @@
     <Value><!--NA-->Customer</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.IsApproved">
-    <Value><!--NA-->Is approved</Value>
+    <Value>Heakskiidetud</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.NewsItem">
     <Value><!--NA-->News item</Value>
@@ -9208,7 +9208,7 @@
     <Value><!--NA-->Determines whether this poll is published (visible) in your store.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.ShowOnHomePage">
-    <Value><!--NA-->Show on home page</Value>
+    <Value>Näita avalehel</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.Polls.Fields.ShowOnHomePage.Hint">
     <Value><!--NA-->Check if you want to show poll on the home page.</Value>
@@ -9850,7 +9850,7 @@
     <Value><!--NA-->Fax is required</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.FirstName">
-    <Value><!--NA-->First name</Value>
+    <Value>Eesnimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.FirstName.Hint">
     <Value><!--NA-->The customer's first name.</Value>
@@ -9892,7 +9892,7 @@
     <Value><!--NA-->The last activity date.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.LastName">
-    <Value><!--NA-->Last name</Value>
+    <Value>Perekonnanimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.LastName.Hint">
     <Value><!--NA-->The customer's last name.</Value>
@@ -9937,13 +9937,13 @@
     <Value><!--NA-->Indicating in which store the customer is registered</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.StateProvince">
-    <Value><!--NA-->State / province</Value>
+    <Value>Osariik / maakond</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.StateProvince.Hint">
     <Value><!--NA-->The state / province.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress">
-    <Value><!--NA-->Address</Value>
+    <Value>Aadress</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress.Hint">
     <Value><!--NA-->The address.</Value>
@@ -10063,13 +10063,13 @@
     <Value><!--NA-->Search by a specific email.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchFirstName">
-    <Value><!--NA-->First name</Value>
+    <Value>Eesnimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchFirstName.Hint">
     <Value><!--NA-->Search by a first name.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchLastName">
-    <Value><!--NA-->Last name</Value>
+    <Value>Perekonnanimi</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.List.SearchLastName.Hint">
     <Value><!--NA-->Search by a last name.</Value>
@@ -10111,13 +10111,13 @@
     <Value><!--NA-->Order #</Value>
   </LocaleResource>     
   <LocaleResource Name="Admin.Customers.Customers.Orders.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.OrderTotal">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.Orders.ShippingStatus">
     <Value><!--NA-->Shipping status</Value>
@@ -10294,16 +10294,16 @@
     <Value><!--NA-->Number of orders</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Reports.BestBy.Fields.OrderTotal">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Reports.BestBy.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Reports.BestBy.OrderStatus.Hint">
     <Value><!--NA-->Search by a specific order status e.g. Complete.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Reports.BestBy.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Reports.BestBy.PaymentStatus.Hint">
     <Value><!--NA-->Search by a specific payment status e.g. Paid.</Value>
@@ -10639,7 +10639,7 @@
     <Value>Telefon</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Address.StateProvince">
-    <Value><!--NA-->State / province</Value>
+    <Value>Osariik / maakond</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Address.ZipPostalCode">
     <Value>Postiindeks</Value>
@@ -10777,7 +10777,7 @@
     <Value><!--NA-->Edit the subtotal discount of this order.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.Edit.OrderTotal">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.Edit.OrderTotal.Hint">
     <Value><!--NA-->Edit the total cost of this order.</Value>
@@ -10840,7 +10840,7 @@
     <Value><!--NA-->incl tax</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.OrderStatus.Cancel">
     <Value><!--NA-->Cancel order</Value>
@@ -10882,7 +10882,7 @@
     <Value><!--NA-->incl tax</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.OrderTotal">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.OrderTotal.Hint">
     <Value><!--NA-->The total cost of this order (includes discounts, shipping and tax).</Value>
@@ -10930,7 +10930,7 @@
     <Value><!--NA-->incl tax</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Fields.PaymentStatus.Hint">
     <Value><!--NA-->The status of the payment.</Value>
@@ -11122,7 +11122,7 @@
     <Value><!--NA-->Search by a specific store.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.List.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.List.Vendor.Hint">
     <Value><!--NA-->Search by a specific vendor. You'll see orders with products from a specified vendor.</Value>
@@ -11311,7 +11311,7 @@
     <Value>Kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Products.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Report.Profit">
     <Value><!--NA-->Profit</Value>
@@ -11416,7 +11416,7 @@
     <Value><!--NA-->The start date (shipment creation date) for the search.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Shipments.List.StateProvince">
-    <Value><!--NA-->State / province</Value>
+    <Value>Osariik / maakond</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Orders.Shipments.List.StateProvince.Hint">
     <Value><!--NA-->Search by a specific state.</Value>
@@ -11887,7 +11887,7 @@
     <Value><!--NA-->Order #</Value>
   </LocaleResource>    
   <LocaleResource Name="Admin.Promotions.Discounts.History.OrderTotal">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Promotions.Discounts.Info">
     <Value><!--NA-->Discount info</Value>
@@ -12154,10 +12154,10 @@
     <Value><!--NA-->Next payment date</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.RecurringPayments.History.ProcessNextPayment">
     <Value><!--NA-->Process next payment (create a new order)</Value>
@@ -12316,7 +12316,7 @@
     <Value><!--NA-->Order totals</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Average.OrderStatus">
-    <Value><!--NA-->Order Status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Average.SumAllTimeOrders">
     <Value><!--NA-->All time</Value>
@@ -12376,13 +12376,13 @@
     <Value><!--NA-->Search in a specific manufacturer.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.OrderStatus.Hint">
     <Value><!--NA-->Search by a specific order status e.g. Complete.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.PaymentStatus.Hint">
     <Value><!--NA-->Search by a specific payment status e.g. Paid.</Value>
@@ -12403,7 +12403,7 @@
     <Value><!--NA-->Filter report by orders placed in a specific store.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Bestsellers.Vendor.Hint">
     <Value><!--NA-->Search by a specific vendor.</Value>
@@ -12421,19 +12421,19 @@
     <Value><!--NA-->Country</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.Fields.SumOrders">
-    <Value><!--NA-->Order total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.Fields.TotalOrders">
     <Value><!--NA-->Number of orders</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.OrderStatus">
-    <Value><!--NA-->Order status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.OrderStatus.Hint">
     <Value><!--NA-->Search by a specific order status e.g. Complete.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.PaymentStatus">
-    <Value><!--NA-->Payment status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.Country.PaymentStatus.Hint">
     <Value><!--NA-->Search by a specific payment status e.g. Paid.</Value>
@@ -12505,7 +12505,7 @@
     <Value><!--NA-->Load products only from a specific store (available in this store).</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.NeverSold.SearchVendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.SalesReport.NeverSold.SearchVendor.Hint">
     <Value><!--NA-->Load products only by a specific vendor (owned by this vendor).</Value>
@@ -13348,7 +13348,7 @@
     <Value>E-mail</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Fields.Email.Hint">
-    <Value><!--NA-->Enter email.</Value>
+    <Value>Sinu e-mail</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Vendors.Fields.Email.Required">
     <Value>E-mail on kohustuslik.</Value>
@@ -13636,7 +13636,7 @@
     <Value><!--NA-->Click here for order details.</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.Progress.Address">
-    <Value><!--NA-->Address</Value>
+    <Value>Aadress</Value>
   </LocaleResource>
   <LocaleResource Name="Checkout.Progress.Cart">
     <Value><!--NA-->Cart</Value>
@@ -15052,10 +15052,10 @@
     <Value><!--NA-->Order information</Value>
   </LocaleResource>
   <LocaleResource Name="Order.OrderStatus">
-    <Value><!--NA-->Order Status</Value>
+    <Value>Tellimuse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Order.OrderTotal">
-    <Value><!--NA-->Order Total</Value>
+    <Value>Tellimus kokku</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Payment">
     <Value><!--NA-->Payment</Value>
@@ -15064,7 +15064,7 @@
     <Value><!--NA-->Payment Method</Value>
   </LocaleResource>
   <LocaleResource Name="Order.Payment.Status">
-    <Value><!--NA-->Payment Status</Value>
+    <Value>Makse olek</Value>
   </LocaleResource>
   <LocaleResource Name="Order.PaymentMethodAdditionalFee">
     <Value><!--NA-->Payment method additional fee</Value>
@@ -16108,7 +16108,7 @@
     <Value><!--NA-->Quantity</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
    <LocaleResource Name="Products.Wishlist.AddToWishlist">
     <Value><!--NA-->Add to wishlist</Value>
@@ -16201,7 +16201,7 @@
     <Value><!--NA-->Existing reviews</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Rating">
-    <Value><!--NA-->Rating</Value>
+    <Value>Reiting</Value>
   </LocaleResource>
   <LocaleResource Name="Reviews.Fields.Rating.Bad">
     <Value><!--NA-->Bad</Value>
@@ -16363,7 +16363,7 @@
     <Value><!--NA-->Search term minimum length is {0} characters</Value>
   </LocaleResource>
   <LocaleResource Name="Search.Vendor">
-    <Value><!--NA-->Vendor</Value>
+    <Value>Tarnija</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart">
     <Value>Ostukorv</Value>
@@ -16465,7 +16465,7 @@
     <Value><!--NA-->{0} ({1})</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.StateProvince">
-    <Value><!--NA-->State / province</Value>
+    <Value>Osariik / maakond</Value>
   </LocaleResource>
   <LocaleResource Name="ShoppingCart.EstimateShipping.Tooltip">
     <Value><!--NA-->Enter your destination to get a shipping estimate</Value>
